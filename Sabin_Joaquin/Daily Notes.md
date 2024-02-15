@@ -23,3 +23,16 @@ Day 3 - 2-13-24
 	- our biggest struggle here was finding a way to successfully pull the smoke from the jar and be able to transfer it. We tried a few different things and one of them had us able to successfully pull smoke shortly after the fire, but after waiting a few seconds it becomes much more difficult to pull smoke even though it can still easily be seen in the jar. 
 ![[DC_PSU_Values.jpeg]]
 Day 4 - 2-15-24
+- Today we were kind of halted with our experiment as we needed to get the box created to transfer smoke into it and be able to point the laser at it to see the particles. We were able to do a test with the jar and make sure the laser will work and we will be able to see a line of particles across our diffused beam. My initial impressions seem like it will work. Now we just needed to get our vinyl cut into pieces so that we can assemble them together. At the time of writing, Dr. Zimmerman is checking whether the band saw, or milling will be the best approach to take with those pieces. 
+- I worked a bit on collecting photos of the experiment for both future reference as well as for my class presentation. Here are the photo collected today:
+
+- These show the laser illuminating the smoke particles in our jar so that we are able to see them:
+![[LazerInSmoke.jpeg]]
+![[LazerLineInSmoke.jpeg]]
+![[LazerLineInSmoke2.jpeg]]
+![[BurningMagnesium.MOV]]
+
+- This one shows the nichrome wire heating up prior to lighting the magnesium on fire:
+![[NichromeHeating.jpeg]]
+
+Day 5 - 2-20-24
