@@ -16,6 +16,16 @@
 
 [[02-22-24]]
 	Summary: Our experimental setup was complete, but we had problems transferring smoke from the jar to the chamber. We brainstormed some ways to fix this problem.
+
+[[02-27-24]]
+	Summary: Not much accomplished today, we set up a curtain and moved our experimental setup to a dark corner, but we could not even successfully ignite some magnesium today. We decided to not use the smoke chamber and instead use the jar that we make the smoke in. 
+
+[[02-29-24]]
+	Summary: We got a new, more powerful voltage source to ignite the magnesium faster. We also ran our experiment for the first time, we could physically see the smoke particles with our eyes, but under the microscope we could not get it focused. We then brainstormed some solutions.
+
+[[03-04-24]]
 	
+
+
 
 
