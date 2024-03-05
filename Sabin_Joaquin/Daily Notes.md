@@ -36,3 +36,44 @@ Day 4 - 2-15-24
 ![[NichromeHeating.jpeg]]
 
 Day 5 - 2-20-24
+We spent most of today creating the box that we will be transferring the smoke into to monitor it with our laser and microscope. we took all of our box pieces that got cut last time and stuck them all together with epoxy. A lot of the day was spent waiting around for the epoxy to dry. Once we got the box held together we went back and filled any gaps with more epoxy to ensure that no smoke could leak out. We also drilled a hole in one side so that the syringe we are using to transfer the smoke can fit through and allow us to put smoke into the box.
+
+Box pieces:
+![[BoxPieces.jpeg]]
+
+Assembled box:
+![[CompletedBox1.jpeg]]
+![[CompletedBox2.jpeg]]
+
+Here is a picture of the hole in the box where we can transfer the smoke into it:
+![[HoleInBox.jpeg]]
+
+Lastly, we began figuring out how we are going to create our stand to hold the tiny tube which acts as a sort of lens and allows us to make our laser into a line instead of a point. A line laser will allow us to see more particles than the single point laser would. 
+![[LensHolder.jpeg]]
+![[LensHolder2.jpeg]]
+
+Day 6 - 2-22-24
+We started off the day by testing to make sure that there were no leaks in the box by filling it with water. If no water leaks out, no smoke should either.
+- we had a small leak but were able to identify it and fill it with epoxy
+
+Next we set up everything together to see if we need to change anything around prior to starting the full experiment and begin trying to gather data.
+- apart from a few minor things like making sure everything was positioned correctly, we were ready to do our first full test run
+- we want to eventually build (3D print?) a base that can hold our containers and the laser so they can stay in the same place without moving around between tests.
+
+Below is a photo of our laser going through the tool which turns the point laser into a line laser.
+![[LaserLine.jpeg]]
+First test results:
+- We got everything aligned well, started the fire from burning the magnesium, and then tried to pull smoke into our syringe. We tried a few different times to ensure that the syringe was completely full of smoke and after looking at it determined that our smoke wasn't concentrated enough to have one single syringe be able to transfer enough smoke that the particles can be viewed
+- We tried pulling smoke and putting it into our box a few different times but the smoke just wasn't concentrated enough after the transfer process to be able to view any particles.
+- The laser also was not able to light up any particles, probably partially because the lighting in the lab is so bright but also because the smoke was too unconcentrated. 
+
+We decided we would need to rework some of our experiment
+- We need a more efficient way of starting the fire because our current method takes too much space and the smoke can not be concentrated enough
+- We need a better way of lighting the smoke particles and blocking out external light
+- We also need some sort of base so that we can keep everything aligned correctly and ensure that when we start collecting data stuff isn't getting moved around between our tests.
+
+Below is a photo of our experiment setup for the first test. The jar and DC power supply used for starting the magnesium fire is not pictured.
+![[ExperimentSetupTest1.jpeg]]
+
+
+Day 7 - 2-27-24
