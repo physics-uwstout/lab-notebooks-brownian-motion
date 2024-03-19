@@ -23,9 +23,11 @@
 [[02-29-24]]
 	Summary: We got a new, more powerful voltage source to ignite the magnesium faster. We also ran our experiment for the first time, we could physically see the smoke particles with our eyes, but under the microscope we could not get it focused. We then brainstormed some solutions.
 
-[[03-04-24]]
+[[03-05-24]]
+	Summary: We did not have success from the new microscopes that we used. The microscope cannot be underlit. We might try some new methods going forward.
+
+[[03-07-24]]
+	Summary: Again, we had no luck with improving the experiment. We are not entirely sure where to go from here, as we need to get some form of results. 
 	
-
-
-
-
+[[03-19-24]]
+	Summary: 
