@@ -126,3 +126,30 @@ When we got to the step of actually seeing the particles through our microscope 
 
 We spent our time after this doing a bit of research on what type of microscope we would need to do what we are trying, and also began looking at some ways we can use code to plot our Brownian motion data once we are able to actually get some. 
 
+
+Day 10 - 3-7-24
+Unfortunately today we did not make much progress. Between classes we contacted Dr. Zimmerman to see if he had a better microscope for the job as the new one we got seems to require a backlight in order for the lens to see anything but having the light on makes it impossible to see the laser. He emailed back saying we should try other lenses so we grabbed a bunch from a different lab and tried them. It seems like even with a lower zoom the issue of the backlight still seems to be present. 
+
+We tried going back to the first microscope and raising it as high as it would go. We then tried lowering the laser to the bottom of the jar to create as much distance as possible between the particles and the lens. We tried focusing the lens on some other things just to see if we could get it to work. We were able to focus on some things like the glass detail and a sharpie when we tested it. Once we put the jar of smoke back it showed us a new problem which is that since we are viewing it from the top, if we are looking for smoke at the bottom of the jar then there will be the top and middle of the jar still filled with smoke in between the laser-lit particles and the lens. Since there is so much in between, it makes it impossible to see any detail in the laser-lit particles as it's just too blurry. 
+
+We'll have to see how we can correct this on Tuesday, but until then we aren't really able to move forward.
+
+
+Day 11 - 3-19-24
+Today we finally had some success! We set up our experiment one last time, focused in the microscope, and adjusted everything as necessary. Here is a photo of our experiment setup (I call it ExperimentSetupV3):
+![[ExperimentSetupV3.jpeg]]
+
+We also used a new jar which was cleaner so that there would not be any buildup from the smoke blocking what our microscope can see. After a bit of adjustment to get everything fine-tuned we were finally able to see the particles. Here is a video of the particles that can be seen with our eyes (not using the microscope)
+![[ParticlesMoving.mp4]]
+As you can see, the particles are moving through the jar pretty quickly and the laser is able to light up a strip of these particles quite well. 
+
+
+And here is a view of what we see when looking through the microscope:
+![[MicroscopeParticlesMoving.mp4]]
+You can see that the particles are completely in focus and you can actually see the movement quite well. 
+
+I think the biggest factor in getting this to work has been properly getting the microscope focused, and using a clean jar. In the moment we did not really realize how dirty our jar was but looking at it in comparison to our clean one we can see that our previous jar was very dirty and was probably preventing the microscope from seeing past the glass and into the actual smoke. 
+Our next step now is to setup the camera and get some recordings of this motion and have it sent to our laptop so we can monitor it however we need to.
+
+
+Day 12 - 3-21-24
