@@ -77,3 +77,52 @@ Below is a photo of our experiment setup for the first test. The jar and DC powe
 
 
 Day 7 - 2-27-24
+We decided to restructure our experiment a little bit because we found a few things that are having implications:
+
+1 - We noticed the lighting in the lab is too bright for the laser to have any effect on the smoke. We moved our setup to a corner where we were able to hang a curtain and block out most of the light. We are hoping it will make it easier to see the laser hit things now.
+
+2 - Transferring the smoke from the jar to our box chamber is not efficient. we need to get a large amount of smoke into the box in order for the laser to be able to hit the particles and actually have it show up to the human eye and microscope, but currently using a syringe to transfer it cannot get the smoke to be transferred in large enough quantities.
+We are going to test starting the fire in the jar, swapping the cap to a different one without holes, and then looking at that directly under the microscope. This should keep the smoke much more dense and have enough particles to monitor.
+
+3 - Using nichrome wire that is holding a piece of magnesium is very slow and inefficient. Sometimes our magnesium starts on fire after a minute or two, but sometimes it doesn't even start the magnesium on fire. We are thinking since we won't need to keep the jar sealed anyway it might make the most sense to just use a lighter that has a long tip (like the ones used for candles) and then quickly seal the jar after the fire has started. (We realized we can't do this because a lighter does not get hot enough to burn magnesium)
+
+Overall, today we unfortunately weren't able to make too much progress because of our Nichrome wire fire starting system being too finnicky. Going forward, we are going to hopefully change this and not have to deal with it anymore. We were able to identify some problems, and hopefully going forward we are able to prevent these from being an issue.
+
+At the end of class we swapped our old power supply to a new one which can output up to 40A. We need to be a lot more careful now but it should be able to start our fire much quicker.
+
+Update: the new power supply makes the magnesium burn extremely quickly, and solves our issue of having to wait around forever. I'd still like to create something that is more efficient from a setup/cleanup perspective, but for now this will allow us to move forward.
+
+
+Day 8 - 2-29-24
+Now that we have a better way of starting the magnesium on fire, we started off today by filling our jar with smoke and bringing it over to use with the laser.
+As I talked about last time, we decided that it was too inefficient to light the fire in one jar, and then transfer it over to a different one so we decided to just light the fire, fill the jar with smoke, and then put a lid on the jar and bring it over directly. Doing it this way means we need to clean the jar a lot more often but it also means that we will get a lot more smoke to look at.
+We ran our experiment, filled the jar with smoke, and brought it over to the microscope and pointed the laser at it. We fiddled with it a little bit and got the laser pointed at the jar to see the particles:
+
+![[ExperimentSetupV1.5.jpeg]]
+
+We were able to get it all situated and block out external light (which made our laser show up better) and we were able to light up the particles and see movement with our eyes. The video below is a bit blurry but shows the particles.
+
+![[ParticleMovement.mov]]
+
+Once we could see that we successfully got some success, we aimed our microscope at it and tried to get it to focus and view the particles. Unfortunately, we could not get our microscope to focus. We tried a few different things:
+- Raised our laser to bring the lit up particles closer to the lens
+- Moved the jar around
+- Adjusted the lighting
+- Used more and less smoke
+- Reducing glare on the glass
+
+After still having no success, we decided to change microscopes to one that is able to have different lenses which will allow us to focus in a bit better on the smoke.
+
+We went through a bit of a process disassembling the microscope to be able to fit our jar in, but once we did we adjusted our setup a little bit so that it has the correct height on everything. It now looks like this, which I call our Experiment Setup V2:
+
+![[ExperimentSetupV2.jpeg]]
+![[ExperimentSetupV2_Laser.jpeg]]
+
+
+Day 9 - 3-5-24
+Today we are going to test out our new microscope and hopefully actually be able to see some moving particles up close. We started the day with a full run of the experiment.
+
+When we got to the step of actually seeing the particles through our microscope we spent a lot of time actually trying to calibrate the microscope properly but unfortunately had no success. We think that the issue is that the new microscope was meant to be used with a backlight and show very small samples on slides. unfortunately we can't use the backlight because we need the laser to light up the particles instead. without the light shining directly into the lens, though, the image appears to be completely black and we can't see anything. We think our first microscope style was a better fit, but just did not have a lens that could zoom in enough for us to look at the particles inside the jar.
+
+We spent our time after this doing a bit of research on what type of microscope we would need to do what we are trying, and also began looking at some ways we can use code to plot our Brownian motion data once we are able to actually get some. 
+
