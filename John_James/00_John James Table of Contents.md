@@ -30,4 +30,13 @@
 	Summary: Again, we had no luck with improving the experiment. We are not entirely sure where to go from here, as we need to get some form of results. 
 	
 [[03-19-24]]
-	Summary: 
+	Summary: Today is the most successful day we have had in a while. After some new adjustments we got some results from the microscope and could see the individual particles and how they were moving. Next, we will get the camera on the microscope to track the particles.  
+
+[[03-21-24]]
+	Summary: We found a way to record the the smoke chamber with the Brownian motion, and are currently working on code that will track the particles and give us some meaningful data.
+
+[[03-26-24]]
+	Summary: Today we were able to get a good video of the particles moving. Now we have to use code to track the particles and do some calculations.
+[[03-28-24]]
+	Summary: We made progress on the equations we are solving for, but not much progress was made on the code that we needed to get working.
+
