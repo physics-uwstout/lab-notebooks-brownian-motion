@@ -153,3 +153,68 @@ Our next step now is to setup the camera and get some recordings of this motion 
 
 
 Day 12 - 3-21-24
+Today we started by downloading the software to interface with the MU1403 camera. We found the right software and got it downloaded and setup. There were a few things we had to mess around with in getting the camera hooked up - we had to find a USB3.0 cable since the one the camera had plugged into it was only USB2.0, and then after swapping it needed to adjust the microscope to view through the camera instead of the eyepieces.
+After a bit of trial and error, we got it all figured out and could see an image on the computer. We played around a bit with exposure times and gain (since we needed a bright image but also needed the camera recording as fast as possible to record the particles). We got everything setup and working well. We went into recording and started recording the particles moving and quickly realized something was wrong with the quality of the recordings. We played around with it but unfortunately discovered that the camera can only record at 4fps. Once we realized this we looked around to see if that can be changed but it can't. 
+This then made us realize the MU1403 camera is just not what we need for this scenario. We needed to find a solution which can view it like the camera would, but at a much faster framerate so we can actually get some data. 
+
+Our current plan, although not perfect, is to put an eyepiece in the hole that housed the camera before, and set up a way for a phone to sit and point into that spot. We are hoping this will allow us to film at 60fps and get a decent recording which we can then use in our monitoring software later on.
+
+This is the setup of the microscope, the phone will look through the black lens in the back:
+![[PhoneMicroscopeLensSetup.jpeg]]
+
+Here is the view the camera will be able to see:
+![[PhoneMicroscopeLens.jpeg]]
+
+It's not perfect, but might be the best thing we can do. I am planning to bring a tripod that holds a phone to class next Tuesday, and we will see what we can do from there. 
+
+
+Day 13 - 3-26-24
+We started the day by setting up a phone-holding tripod and getting a good angle with the camera pointed down the microscope. although some black borders appear, I think that it overall has been our best way of collecting data so far.
+
+We spent some time trying to get the camera to focus and get enough detail for actual quantifiable data, but eventually determined that with our new setup the laser was not enough to light up the particles. We switched from a red laser to a green one which was much brighter and had better results. We could finally see our particles moving clearly as they were lit up very bright. 
+
+We recorded our first usable data, which I will attach below, and will be able to hopefully get some sort of result after plugging in these videos into the particle monitoring code. 
+![[GreenLaser.mp4]]
+![[GreenLaserZoomed.mp4]]
+
+Day 14 - 3-28-24
+Since we now had a video of our particles actually moving, we decided to move onto the next step of working with code to monitor the particles. We split up and decided to work on 2 separate things. James is working with the code trying to get it working and figure out how we will upload our videos to be used with a software like VideoGraph (recommended in the PDF) and which we can then use to get our velocities, number of particles being tracked, and some other useful data. 
+While he was working on this, I went back to the PDFs that we found and read through early on and looked through them again to find out how we can actual get quantifiable results after we have our useable data. The following screenshot is from the PDF titled "Measuring Boltzmann’s constant using video microscopy of Brownian motion" and has some good info on what values we need in order to calculate Boltzmann's Constant.
+![[BoltzmanConstantCalculations.png]]
+Note - this info can be found on page 5 of the PDF
+[[New Notebook GitHub/lab-notebooks-brownian-motion/John_James/PDFs/Measuring Boltzmann’s constant using video microscopy of Brownian motion.pdf|Measuring Boltzmann’s constant using video microscopy of Brownian motion]]
+
+From my understanding these are the variables we may need throughout:
+- The square displacement
+- The mean square displacement (vs time)
+- N - the number of particles
+- R - time depending quantity
+- T - temperature (in K)
+- $\eta$ - viscosity of fluid ($\mu$Pa)
+- $\alpha$ - particle radius ($\mu$m)
+- $\mu$ - linear drag coefficient
+	- Because we are using spherical particles of radius $\alpha$, we use Stoke’s law to write $\mu$ = 6*$\pi$*$\eta$*$\alpha$ 
+- $\tau$ - time interval between position measurements
+- D - the self-diffusion constant D=kT/(6$\pi$*$\eta$*$\alpha$)
+- k - Boltzmann's Constant
+- s - slope of the fit
+
+
+Day 15 - 4-2-24
+Continuing off of the PDF and the equations from last week, this week we wanted to figure out exactly what we'd need for values to solve for Boltzmann's constant:
+![[Pasted image 20240402085519.png]]
+k = Boltzmann's constant
+$\eta$ = viscosity of fluid
+$\alpha$ = particle radius
+s = slope
+T = temperature
+
+It is pretty difficult to measure viscosity of smoke, but I was able to find this value online:
+$\eta$ = 2.06x10-6 Pa-s
+
+According to ChatGPT this value is slightly low for smoke in ambient air and since we are also trapping the smoke in a jar, we suspect our viscosity value would actually be a bit higher. Unfortunately we have no way of finding our actual viscosity so this is the best we have to go off.
+
+next we have particle radius $\alpha$. digging for this value was a little confusing as once again there doesn't seem to be a super easy way of measuring for it, and the internet didn't prove to be super useful. from what I found magnesium oxide particles are about 10-50 microns so for our uses we can average the value to be:
+$\alpha$ = 20 microns.
+
+next we've got slope, denoted by the letter s. This seems to be the 
