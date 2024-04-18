@@ -217,4 +217,54 @@ According to ChatGPT this value is slightly low for smoke in ambient air and sin
 next we have particle radius $\alpha$. digging for this value was a little confusing as once again there doesn't seem to be a super easy way of measuring for it, and the internet didn't prove to be super useful. from what I found magnesium oxide particles are about 10-50 microns so for our uses we can average the value to be:
 $\alpha$ = 20 microns.
 
-next we've got slope, denoted by the letter s. This seems to be the 
+
+Day 16 - 4-4-24
+We spent most of today figuring out how to use the code and import our videos to be monitored. There was a lot of time spent figuring out how to run the code and get everything actually working as we got many errors. It ended up being a pretty easy fix, we just needed to use pip install to install python in anaconda prompt:
+
+pip install opencv-python
+
+Once we did this we were able to work through the code, adjusting parameters as needed and setting it up for our video of the particles.
+Some notable things we had to do is check the directories of where our files were saved, if it was saved in OneDrive it could not be accessed so it had to be in a folder separate from that, and then we had to change the file paths to match. We also had to adjust the dt value to be 1/30 since the video was filmed in 30fps. If it had been filmed in 60fps then it would need to be 1/60.
+
+Once we got all of it set up, we ended up getting a graph which we are happy to have gotten, but don't really know any information about it yet. We aren't sure if its all that helpful or not but at least it is something:
+![[CodeOutputGraph.png]]
+What we can tell initially is that the particles seem to be very chaotic, which isn't necessarily good or bad information, but it suggests that we should maybe reduce the length of our video and retry. Next class we are going to try and get some more usable videos of differing lengths and see if we can get some better results.
+
+Day 17 - 4-9-24
+Today we had our most successful run of the experiment so far. I set everything up and got the particles in focus and was able to make them extremely visible to the camera. I got a few good videos, this time ranging from 3-5 seconds so that they wouldn't be so long as to make the software get messed up again. The particles are moving rather quickly still so we might need to trim the videos down further.
+I figured out a big part of the way our experiment works, and why it's not giving proper Brownian motion. As we know, Brownian motion is random movements but for some reason our smoke has always had some kind of consistent directional flow to it. Initially we had thought it was due to the jar being curved, but after looking at it we determined that the particles were not always following the curvature of the jar and the flow did not always move from one side to the next.
+Today I realized what is causing the flow: the heat from the burning magnesium. Even though the fire is no longer active, the magnesium leaves behind some ash and heats the glass when it falls and melts through the nichrome wire. The ash and glass likely still hold a fair amount of heat, and are causing the smoke particles to push away from it which is causing the directional flow we see in our experiment. 
+
+I recorded 6 videos today, and will attach the best one here:
+![[ParticleMovementSlow1.mp4]]
+
+
+Day 18 - 4-11-24
+
+Today we put the videos into the program we used before to see how the particles could be monitored. We chose to go with the same video I attached right above as it seems to be the best one. We cut the video down to being 1 second long, so there are only 30 frames which should make the particles easy to follow for the program. 
+
+We also had an idea: since I learned last time the cause of our flow of smoke particles is the heat from the burning magnesium ash, we decided a way we might be able to eliminate this is to put the jar in a tub of cold water to counteract the heat. Our goal is to make the jar inside a uniform temperature to eliminate any convection current inside. We decided to run a test where we would burn the magnesium as usual, seal the jar, and before viewing the particles, dunk it in a tub of water. We ran our test but the magnesium didn't end up falling this time, so there was no ash left behind. We decided we did not need to dunk the jar this test so went and viewed it. We could not get our microscope to focus and the camera to see the smoke for some odd reason but we could view with our eyes there was much less particle flow and they seemed to be moving back and forth much more randomly, which is what we hope to see out of this experiment. This gave us hope for our next test, which we will try next class period. 
+
+
+Day 19 - 4-16-24
+
+Our goal today was to gather any missing photos and ensure that our poster is finished and has proper information. We spent the beginning of class running a test to get good photos of the light hitting the smoke, and the experiment setup all together. We did not dunk our jar in water for this experiment as we did not intend to use it to gather data, rather just be a display piece for our photos. Once we spent some time finalizing the poster, we decided to put our videos into the code again and get some better results. This was our output graph:
+
+![[CodeOutput2Graph.png]]
+
+Here is the velocity X-component graph:
+
+![[VelocityXComponentGraph.png]]
+
+Here is the velocity Y-component graph:
+
+![[VelocityYComponentGraph.png]]
+
+Day 20 - 4-18-24
+
+We spent the majority of our day today preparing for the final paper by thinking of how we want our data laid out and presented in it. The outline is due this weekend so we wanted that to be all prepared.
+We also ran an experiment and dunked it in a tub of water to attempt to get rid of any heat that could be in the jar. During this run of the experiment the magnesium did not drop and create a big pile of ash which also helped there to not be a giant source of heat in the jar. We dunked the jar and could feel that it was much cooler than it usually is. We put it under the microscope and still saw a small flow of particles, but noticed they were moving much slower and not in a consistent direction. It does also appear that they are hitting each other and being more random than we have seen in the past.
+![[WaterDunkVideo1.mp4]]
+![[WaterDunkVideo2.mp4]]
+
+Day 21 - 4-23-24
