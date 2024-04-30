@@ -267,4 +267,7 @@ We also ran an experiment and dunked it in a tub of water to attempt to get rid 
 ![[WaterDunkVideo1.mp4]]
 ![[WaterDunkVideo2.mp4]]
 
+
 Day 21 - 4-23-24
+
+Today we did not do any experiments and instead focused on writing the final paper.
