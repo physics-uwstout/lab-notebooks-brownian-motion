@@ -37,6 +37,24 @@
 
 [[03-26-24]]
 	Summary: Today we were able to get a good video of the particles moving. Now we have to use code to track the particles and do some calculations.
+	
 [[03-28-24]]
 	Summary: We made progress on the equations we are solving for, but not much progress was made on the code that we needed to get working.
 
+[[04-02-24]]
+	Summary: We looked through the pdf of the research papers to see if there were some calculations that we can make with the knowledge we have of the system, so we can get some meaningful results from it.
+	
+[[04-04-24]]
+	Summary: We went through code and finally got it to work. We got some results in the form of a velocity vector field. It is not necessarily meaningful data. We need to do some corrections on the velocities and shorten the video so it tracks the particles better.
+
+[[04-09-24]]
+	Summary: We made some changes to the code and got some more meaningful results 
+
+[[04-11-24]]
+	Summary: We reran our experiment with some changes to get better results. Unfortunately, we were unable to get a good video of the results.
+
+[[04-16-24]]
+	Summary: Not much to report, we just got some work done on the poster for research day.
+
+[[04-18-24]]
+	Summary: 
